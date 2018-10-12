@@ -9,12 +9,13 @@ html {
   box-sizing: inherit;
 }
 
-header{
+header {
   display: inline-block;
   box-sizing: border-box;
   background-color: #79756f;
-  border-width: medium;
+  border: 3px solid;
   border-color: #595652;
+  width: 100%;
 }
 
 body {
@@ -28,19 +29,14 @@ h1 {
 }
 
 ul {
-  margin: .3em;
-  padding: .6em .5em .75em;
+  margin: 0;
   list-style-type: none;
   text-align: center;
 }
 
 li {
   display: inline-block;
-  margin: 0;
-  max-width: 20em;
-  padding: .5em .75em;
-  border-radius: 10px;
-  text-align: left;
+  margin: .3em;
 }
 
 a {
@@ -49,6 +45,8 @@ a {
   text-decoration: none;
   font-family: sans-serif;
   background-color: #713837;
+  padding: .6em .5em .75em;
+  border-radius: 5px;
 }
 
 a:hover {
