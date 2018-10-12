@@ -13,8 +13,7 @@ header {
   display: inline-block;
   box-sizing: border-box;
   background-color: #79756f;
-  border: 3px solid;
-  border-color: #595652;
+  border: 3px solid #595652;
   width: 100%;
 }
 
@@ -26,10 +25,11 @@ h1 {
   font-family: Bevan, serif;
   color: #fff;
   text-align: center;
+  margin: 0;
 }
 
 ul {
-  margin: 0;
+  margin: .3em;
   list-style-type: none;
   text-align: center;
 }
@@ -47,9 +47,10 @@ a {
   background-color: #713837;
   padding: .6em .5em .75em;
   border-radius: 5px;
+  border: 0 solid #713837;
 }
 
 a:hover {
   background-color: #f33;
-  color: #fff;
+  border-color: #f33;
 }
