@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia, sans-serif;
+  font-family: Bevan, cursive;
   background-color: #dbd6cf;
   line-height: 1.5;
 }
@@ -17,34 +17,41 @@ header{
   border-color: #595652;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
-  font-family: Bevan, sans-serif;
+  font-family: Bevan, serif;
   color: #fff;
   text-align: center;
 }
 
-.links {
+ul {
   margin: .3em;
   padding: .6em .5em .75em;
   list-style-type: none;
   text-align: center;
 }
 
-.links li {
-  display: inline;
+li {
+  display: inline-block;
   margin: 0;
   max-width: 20em;
   padding: .5em .75em;
-  background-color: #713837;
   border-radius: 10px;
   text-align: left;
 }
 
-.links a {
+a {
+  display: inline-block;
   color: #fff;
   text-decoration: none;
+  font-family: sans-serif;
+  background-color: #713837;
 }
-.links a:hover {
+
+a:hover {
   background-color: #f33;
   color: #fff;
 }
